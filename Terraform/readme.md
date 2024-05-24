@@ -1,4 +1,4 @@
-# Terraform Concepts for Learning
+# Terraform Concepts
 
 Terraform is an infrastructure as code (IaC) tool that allows you to define and provision infrastructure resources using declarative configuration files.
 
