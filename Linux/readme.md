@@ -27,4 +27,3 @@
 25. Boot Process
 26. Resource Management
 27. Backup and Recovery
-28. shell scripting
