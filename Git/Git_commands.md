@@ -25,17 +25,19 @@ git config --global core.editor "code --wait" # For VSCode
 
 # Check Configuration
 git config --list
-Creating and Cloning Repositories
 ```
 
-# Initialize a new Git repository
+# Creating and Cloning Repositories
+
 ```bash
+# Initialize a new Git repository
 git init
 
 # Clone an existing repository
 git clone <repository-url>
-Basic Workflow
-
+```
+# Basic Workflow
+```bash
 # Check the status of your repository
 git status
 
