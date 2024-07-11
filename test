@@ -1,0 +1,16 @@
+Conclusion
+Using AWS Systems Manager to connect to your EKS cluster offers enhanced security and convenience. This method ensures that you do not have to store long-lived credentials on your worker nodes, as it uses temporary credentials instead. Additionally, it streamlines the process of managing your EKS cluster by allowing seamless integration with AWS tools. This approach not only boosts security but also simplifies operational overhead, making it an excellent choice for managing Kubernetes clusters on AWS.
+
+
+
+## Introduction
+
+Amazon Elastic Kubernetes Service (EKS) simplifies the process of running Kubernetes on AWS without needing to install and operate your own Kubernetes control plane or nodes. One powerful feature of EKS is the ability to connect to your EKS cluster and manage it securely using AWS Systems Manager. This approach leverages temporary AWS credentials to securely connect to your worker nodes and retrieve the necessary kubeconfig to interact with your EKS cluster using `kubectl`.
+
+## Connecting to an EKS Cluster Using AWS Systems Manager
+
+1. **Prerequisites:**
+   - AWS CLI installed and configured on your local machine.
+   - `kubectl` installed on your local machine.
+   - An existing EKS cluster.
+   - IAM role with necessary permissions to access AWS Systems Manager and EKS.
