@@ -1,0 +1,1 @@
+kubectl get namespace <namespace-name> -o json | jq '.spec.finalizers=[]' | kubectl replace --raw "/api/v1/namespaces/<namespace-name>/finalize" -f -
